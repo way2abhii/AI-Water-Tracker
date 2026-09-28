@@ -1,0 +1,20 @@
+[project]
+name = "water-intake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apscheduler==3.10.4",
+    "fastapi==0.109.2",
+    "langchain==0.1.12",
+    "llama-index>=0.14.25",
+    "loguru==0.7.2",
+    "openai>=2.54.0",
+    "python-dotenv==1.0.1",
+    "sqlalchemy==2.0.27",
+    "sqlite-utils==3.35",
+    "streamlit==1.31.1",
+    "typer>=0.9.0",
+    "uvicorn==0.27.0.post1",
+]

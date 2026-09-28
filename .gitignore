@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables (keep secrets safe!)
+.env
+
+# Database (don't commit local DB)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+app.log
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# uv lock (optional: keep for reproducibility)
+# uv.lock
+
+# Migration scripts (optional: you can commit these)
+# migrate_db.py
+
+# Streamlit cache
+.streamlit/
